@@ -25,13 +25,13 @@ const MenuOptions = () => {
         } overflow-hidden transition-all`}
       >
         {countTotalTokens && <TotalTokenCostDisplay />}
-        {googleClientId && <GoogleSync clientId={googleClientId} />}
-        <AboutMenu />
+        {/* {googleClientId && <GoogleSync clientId={googleClientId} />} */}
+        {/* <AboutMenu /> */}
         <ClearConversation />
         <ImportExportChat />
         <Api />
         <SettingsMenu />
-        <Me />
+        {/* <Me /> */}
       </div>
     </>
   );
